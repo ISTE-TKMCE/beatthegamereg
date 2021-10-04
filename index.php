@@ -17,6 +17,10 @@ $phone=$_POST['phone'];
 $password=$_POST['password'];
 $year=$_POST['year'];
 $batch=$_POST['batch'];  
+	
+	
+$branch .= $year;
+$branch .= $batch;
 
 // echo "<script type='text/javascript'>alert('$name $email $branch $username $fav $phone $password');</script>";
 
@@ -26,7 +30,7 @@ $query = $dbh->prepare($sql);
 $query-> bindParam(':name', $name, PDO::PARAM_STR);
 $query-> bindParam(':username', $username, PDO::PARAM_STR);
 $query-> bindParam(':useremail', $email, PDO::PARAM_STR);
-$query-> bindParam(':batch', $branch+$year+$batch, PDO::PARAM_STR);  
+$query-> bindParam(':batch', $branch, PDO::PARAM_STR);  
 $query-> bindParam(':phone', $phone, PDO::PARAM_STR);
 $query-> bindParam(':fav', $fav, PDO::PARAM_STR);   
 $query-> bindParam(':password', $password, PDO::PARAM_STR);
