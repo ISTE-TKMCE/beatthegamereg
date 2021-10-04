@@ -35,6 +35,8 @@ $query-> bindParam(':phone', $phone, PDO::PARAM_STR);
 $query-> bindParam(':fav', $fav, PDO::PARAM_STR);   
 $query-> bindParam(':password', $password, PDO::PARAM_STR);
 $query->execute();
+echo "<script type='text/javascript'>alert('Registration Successful');</script>";
+
 }  
 ?>      
 <!DOCTYPE html>
