@@ -34,12 +34,30 @@ body {
   width: 100%;
   background: transparent;
 }
+a{
+  text-decoration:none;
+}
+#iste-logo{
+  position:fixed;
+  height:70px;
+  margin-top:10px;
+  margin-left:10px;
+  z-index:10;
+}
 
 .bg-1,
 .bg-2 {
   position: absolute;
   height: 100%;
   width: 50%;
+}
+
+#btg-logo{
+  position:absolute;
+  z-index:20;
+  height:300px;
+  right:13%;
+  top:10%;
 }
 
 .bg-1 {
@@ -248,6 +266,15 @@ body {
   
     border-radius: 15px;
   }
+
+  
+#btg-logo{
+  position:absolute;
+  z-index:20;
+  height:300px;
+  top:40%;
+  transform:translateY(-50%)
+}
   
 #submit-form-btg .btn {
     font-weight: bolder;
@@ -255,5 +282,13 @@ body {
     border: 2px solid #ed3b16;
     color: #fff !important;
     transform: scale(1.2);
+  }
+  .fake-register-button {
+    background: #14235a;
+    color: #fff;
+    font-weight: bolder;
+    border: 1px solid #fff;
+    transform: scale(1.2);
+    z-index:40;
   }
 }
