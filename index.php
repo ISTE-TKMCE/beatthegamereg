@@ -53,6 +53,9 @@ $query->execute();
 <body>
 
   <div class="container-fluid">
+
+  <img src="./assets/img/iste.png" class = "img-fluid img-responsive" id = "iste-logo" alt="">
+
     <div class="header">
 
       <div class="bg-1"></div>
@@ -72,15 +75,17 @@ $query->execute();
             </div>
 
             <div class="fake-register-button-wrapper row">
-              <button class="btn fake-register-button font-weight-bolder mx-auto rounded-pill">Register now</button>
+              <a href="#register" class = "mx-auto"><button class="btn fake-register-button font-weight-bolder mx-auto rounded-pill">Register now</button></a>
             </div>
           </div>
 
         </div>
         <div class="col-lg-6 text-center column-2">
 
-          <img src="./assets/img/bat.svg" class = "img-fluid img-responsive w-50" alt="" srcset="">
+          <img src="./assets/img/bat.gif" class = "img-fluid img-responsive w-50" alt="" srcset="">
         </div>
+
+        <img src="./assets/img/btg.png" id = 'btg-logo' alt="">
 
       </div>
 
@@ -90,7 +95,7 @@ $query->execute();
 
 
 
-    <div class="register">
+    <div class="register" id = 'register'>
 
       <div class="inner-register-container">
         <div class="inner-register-wrapper">
@@ -131,8 +136,8 @@ $query->execute();
 
 
 
-            <div class="form-row mt-3">
-              <div class="col-md-12 mb-3">
+            <div class="form-row mt-md-3">
+              <div class="col-md-6 mb-3">
 
                 <div class="input-group">
                   <div class="input-group-prepend">
@@ -156,9 +161,7 @@ $query->execute();
                 </div>
               </div>
 
-
-              <div class="form-row mt-3">
-              <div class="col-md-12 mb-3">
+              <div class="col-md-6 mb-3">
 
                 <div class="input-group">
                   <div class="input-group-prepend">
@@ -179,12 +182,15 @@ $query->execute();
                   </div> -->  
                 </div>
               </div>
-              
+
+              </div>
 
 
+              <div class="form-row mt-md-3">
+            
 
-              <div class="form-row mt-3">
-              <div class="col-md-12 mb-3">
+
+              <div class="col-md-6 mb-3">
 
                 <div class="input-group">
                   <div class="input-group-prepend">
@@ -202,7 +208,6 @@ $query->execute();
                 </div>
               </div>
 
-
               <div class="col-md-6 mb-3">
 
                 <div class="input-group">
@@ -216,9 +221,9 @@ $query->execute();
                   </div>  -->
                 </div>
               </div>
+              </div>
 
-            </div>
-            <div class="form-row mt-3">
+            <div class="form-row mt-md-3">
               <div class="col-md-6 mb-3">
 
                 <div class="input-group">
@@ -246,7 +251,7 @@ $query->execute();
 
             <div class="form-row">
 
-              <div class="col-lg-12 mb-3 mt-3">
+              <div class="col-lg-12 mb-3 mt-md-3">
 
 
 
