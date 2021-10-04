@@ -87,9 +87,10 @@ $query->execute();
         <div class="col-lg-6 text-center column-2">
 
           <img src="./assets/img/bat.gif" class = "img-fluid img-responsive w-50" alt="" srcset="">
+        <img src="./assets/img/btg.png" id = 'btg-logo' alt="">
+
         </div>
 
-        <img src="./assets/img/btg.png" id = 'btg-logo' alt="">
 
       </div>
 
@@ -104,7 +105,7 @@ $query->execute();
       <div class="inner-register-container">
         <div class="inner-register-wrapper">
 
-          <h3 class = "text-light mb-5 register-header">Start playing now</h3>
+          <h3 class = "text-light mb-5 register-header text-capitalize">register now</h3>
           <form method="post">
 
 
@@ -115,7 +116,7 @@ $query->execute();
                   <div class="input-group-prepend">
                     <span class="input-group-text" id="inputGroupPrepend3" >Name</span>
                   </div>
-                  <input type="text" class="form-control" id="namefeild" placeholder="Username" name ="name" onKeyUp=checkName()
+                  <input type="text" class="form-control" id="namefeild" placeholder="Name" name ="name" onKeyUp=checkName()
                     aria-describedby="inputGroupPrepend3" required>
                   <!-- <div class="invalid-feedback">
                     Please choose a username.

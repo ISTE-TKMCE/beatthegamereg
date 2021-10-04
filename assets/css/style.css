@@ -53,11 +53,11 @@ a{
 }
 
 #btg-logo{
-  position:absolute;
+  position:fixed;
   z-index:20;
-  height:300px;
-  right:13%;
-  top:10%;
+  height:150px;
+  top:0px;
+  right:0px;
 }
 
 .bg-1 {
@@ -268,13 +268,14 @@ a{
   }
 
   
-#btg-logo{
-  position:absolute;
-  z-index:20;
-  height:300px;
-  top:40%;
-  transform:translateY(-50%)
-}
+  #btg-logo{
+    position:absolute;
+    z-index:20;
+    height:300px;
+    left:50%;
+    transform:translate(-50%);
+   top:-40%;
+  }
   
 #submit-form-btg .btn {
     font-weight: bolder;
